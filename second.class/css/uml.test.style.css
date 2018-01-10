@@ -1,0 +1,57 @@
+body{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h1{
+  text-align: center;
+}
+
+h2.question_type{
+  background-color: rgb(245,245,245);
+  padding: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 10px;
+}
+
+div{
+  float:left;
+  clear: left;
+  margin-bottom: 15px;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 10px;
+  width: 100%;
+}
+.question{
+  font-weight: bold;
+  text-indent: 40px;
+}
+.answer{
+  margin-left: 60px;
+}
+.test_info{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+.test_info span{
+  float: left;
+  width:32%;
+}
+.student_info {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+.student_info span{
+  float:left;
+  width:32%;
+}
+#submit_buttom{
+  background-color: rgb(68,138,201)
+}
+#submit{
+  text-align: center;
+}
