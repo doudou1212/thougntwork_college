@@ -31,27 +31,28 @@ div{
 .answer{
   margin-left: 60px;
 }
-.test_info{
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-}
+
 .test_info span{
   float: left;
-  width:32%;
-}
-.student_info {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
+  width:30%;
+  margin: 15px;
 }
 .student_info span{
   float:left;
-  width:32%;
+  width:30%;
+  margin: 15px;
 }
-#submit_buttom{
-  background-color: rgb(68,138,201)
+#submit_button{
+  background-color: rgb(68,138,201);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+#submit_button:hover{
+  background-color:white;
+  color: black;
 }
 #submit{
   text-align: center;
+  color: rgb(255,3,3);
 }
